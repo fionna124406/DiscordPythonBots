@@ -12,7 +12,7 @@ client = commands.Bot(command_prefix = "?") #Initialise client bot
 @client.event 
 async def on_ready():
     print("Bot is online and connected to Discord") #This will be called when the bot connects to the server
-
+    if message.author.id == "353818750685937666": "482099914680041494"
 @client.event
 async def on_message(message):
     if message.content == "cookie":
